@@ -1,0 +1,1 @@
+This was just an experiment to see to what extend I could read and manipulate a website's stylesheets, I do not plan on developing it any further. Simply sharing it here for those who might find it useful and for myself should I ever have a need for it in the future.

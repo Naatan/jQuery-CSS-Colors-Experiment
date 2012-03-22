@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery CSS Colors</title>
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>	
+		<script src="lib/jquery.css-colors.js"></script>
+		<script src="lib/rgbcolor.js"></script>
+		<link rel="stylesheet" href="test.css" />
+	</head>
+	<body>
+		
+		<h1>red</h1>
+		<h2>green</h2>
+		<h3>blue</h3>
+		
+		<ul>
+			<li><a href="javascript:cssColors.invert()">Invert</a></li>
+			<li><a href="javascript:cssColors.setBrightness(50)">Increase Brightness</a></li>
+			<li><a href="javascript:cssColors.setBrightness(-50)">Decrease Brightness</a></li>
+			<li><a href="javascript:setInterval(function() { cssColors.setBrightness(10) }, 50)">Animate Brightness</a></li>
+			<li><a href="javascript:cssColors.reset()">Reset</a></li>
+		</ul>
+	</body>
+</html>
